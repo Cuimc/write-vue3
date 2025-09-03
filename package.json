@@ -1,0 +1,23 @@
+{
+    "name": "write-vue3",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "node scripts/dev.js reactivity -f esm"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.10.0",
+    "dependencies": {
+        "vue": "^3.5.20"
+    },
+    "devDependencies": {
+        "esbuild": "^0.25.9",
+        "minimist": "^1.2.8",
+        "typescript": "^5.9.2"
+    }
+}
